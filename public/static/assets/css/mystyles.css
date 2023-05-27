@@ -1,0 +1,21 @@
+/* Custom CSS */
+:disabled {
+    cursor: no-drop;
+}
+
+/* Side bar navigation */
+.main-sidebar ul li ul li a{
+    padding-left: 26px;
+}
+
+/* permissions */
+.single_permission_pod {
+    font-weight: 400 !important;
+    cursor: pointer;
+}
+
+/* validation errors */
+label.error {
+    color: red;
+    font-weight: 400 !important;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "user/reb-sims",
+    "description": "REB Stock MIS",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CJ Remy",
+            "email": "remycyuzuzo@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5",
+        "shuchkin/simplexlsx": "^1.0"
+    }
+
+}
